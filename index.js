@@ -564,7 +564,7 @@ async function run() {
             res.send(result);
         });
 
-           //update a user role
+           //update a user role a
     app.patch('/users/update/:email', async (req, res) => {
         const email = req.params.email
         const user = req.body
